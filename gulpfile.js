@@ -1,8 +1,9 @@
-var gulp = require('gulp'), 
-sass = require('gulp-sass'),
+var 
+gulp        = require('gulp'), 
+sass        = require('gulp-sass'),
 browserSync = require('browser-sync'),
-concat = require('gulp-concat'),
-uglify =require('gulp-uglifyjs');
+concat      = require('gulp-concat'),
+uglify      = require('gulp-uglifyjs');
 
 gulp.task('sass', function(){
 	return gulp.src('app/sass/**/*.sass')
