@@ -10,7 +10,7 @@ del         = require('del'),
 imagemin    = require('gulp-imagemin'),
 pngquant    = require('imagemin-pngquant'),
 cache       = require('gulp-cache'),
-autoprefixer= require(gulp-au);
+autoprefixer= require('gulp-autoprefixer');
 
 gulp.task('sass', function(){
 	return gulp.src('app/sass/**/*.sass')
